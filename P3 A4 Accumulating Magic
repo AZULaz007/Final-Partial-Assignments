@@ -1,0 +1,47 @@
+https://replit.com/join/pwjjiowzbo-azul-denisseden
+counter=0
+num_wands=0
+elder=0
+hawthorn=0
+willow=0
+holly=0
+client=input("Does a client come in? (Yes/No): ")
+while client=="Yes":
+  counter+=1
+  buy=input("Buy something? (Yes/No): ")
+  if buy=="Yes":
+    print("Elder Wand [1], Hawthorn Wand [2], Willow Wand [3], and Holly Wand [4].")
+    wand=input("What wand did you buy? (Choose 1, 2, 3 or 4): ")
+    if wand=="1":
+      elder+=1
+      num_wands+=1
+    if wand=="2":
+      hawthorn+=1
+      num_wands+=1
+    if wand=="3":
+      willow+=1
+      num_wands+=1
+    if wand=="4":
+      holly+=1
+      num_wands+=1
+  client=input("Does a client come in? (Yes/No): ")
+print(f"{counter} customers entered today")
+print(f"""Today {elder} elder wands, {hawthorn} hawthorn wands, {willow} willow wands,, {holly} holly wands were sold""")
+print(f"Number of wands bought: {num_wands}")
+
+https://replit.com/join/tpgkhuwtod-azul-denisseden
+user_input=input()
+separate=user_input.split()
+if "alexa" in user_input:
+  print("yes sir?")
+if user_input.count("alexa")>1:
+  print("hey just say my name once")
+
+https://replit.com/join/rfxhflcwjo-azul-denisseden
+quantity=int(input("How many temperature readings do you have? "))
+while quantity<100:
+  temperature=float(input("Enter temperature:"))
+
+
+
+
